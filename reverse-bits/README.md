@@ -1,3 +1,4 @@
+[Discussion Post (created on 11/5/2021 at 21:24)](https://leetcode.com/problems/reverse-bits/discuss/1265259/100-C%2B%2B)  
 <h2>190. Reverse Bits</h2><h3>Easy</h3><hr><div><p>Reverse bits of a given 32 bits unsigned integer.</p>
 
 <p><strong>Note:</strong></p>
