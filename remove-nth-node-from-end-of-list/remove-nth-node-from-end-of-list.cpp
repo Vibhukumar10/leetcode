@@ -15,18 +15,22 @@ public:
         if(!head)
             return NULL;        
         ListNode *slow=head,*fast=head;        
-        while(n) {
+        while(n) 
+        {
             fast=fast->next;
             n--;
         }
-        if(!fast) {
+        
+        if(!fast) 
+        {
             ListNode *temp = head;
             head=head->next;
             delete temp;
             return head;
         }
         
-        while(fast->next) {
+        while(fast->next) 
+        {
             fast=fast->next;
             slow=slow->next;
         }
