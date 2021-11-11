@@ -22,18 +22,20 @@ public:
     
     int getCeil(int arr[],int l,int r,int x)
     {
-        while(l<r)
+        int res=r;
+        while(l<=r)
         {
             int m=l+(r-l)/2;
-            
             if(arr[m]<x)
                 l=m+1;
             
             else
-                r=m;           
+            {
+                res=min(res,m);
+                r=m-1;
+            }
         }
-        return r;
-        
+        return res;
     }
     
     int lengthOfLIS(vector<int>& nums) {
@@ -41,8 +43,8 @@ public:
         
         int n=nums.size();
         int tail[n],len=1;
-        
         tail[0]=nums[0];
+        
         for(int i=1;i<n;i++)
         {
             if(nums[i]>tail[len-1])
@@ -52,8 +54,8 @@ public:
             }
             else
             {
-                int ceilIdx=getCeil(tail,0,len-1,nums[i]);
-                tail[ceilIdx]=nums[i];
+                int idx=getCeil(tail,0,len-1,nums[i]);
+                tail[idx]=nums[i];
             }
         }
         return len;
