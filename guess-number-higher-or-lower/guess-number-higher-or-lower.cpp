@@ -9,23 +9,16 @@
 
 class Solution {
 public:
-    int guessNumber(int n) 
-    {
-        long int low=1,high=n;
-        while(low<=high)
+    int guessNumber(int n) {
+        int l=1,r=n;
+        while(l<=r)
         {
-            long int mid=(low+high)/2;
-            if(guess(mid)==0)
-            {
-                return mid;
-            }
-            else if(guess(mid)==1)
-            {
-                low=mid+1;
-            }
-            else
-                high=mid-1;
+            int m=l+(r-l)/2;
+            int res = guess(m);
+            if(res==0) return m;
+            else if(res<0) r=m-1;
+            else l=m+1;
         }
-        return 0;
+        return -1;
     }
 };
