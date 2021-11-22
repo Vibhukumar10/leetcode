@@ -12,24 +12,25 @@
 class Solution {
 public:
     int postIndex;
-    unordered_map<int,int> inorderIndexMap;
+    unordered_map<int,int> map;
     
-    TreeNode *arrayToTree(vector<int> &postorder,int l,int r) {
+    TreeNode *constructTree(vector<int> postorder,int l,int r) {
         if(l>r) return NULL;
         
-        int rootValue=postorder[postIndex--];
-        TreeNode *root=new TreeNode(rootValue);
+        int rootVal=postorder[postIndex--];
+        TreeNode *root=new TreeNode(rootVal);
         
-        root->right=arrayToTree(postorder,inorderIndexMap[rootValue]+1,r);
-        root->left=arrayToTree(postorder,l,inorderIndexMap[rootValue]-1);
+        root->right=constructTree(postorder,map[rootVal]+1,r);
+        root->left=constructTree(postorder,l,map[rootVal]-1);
         return root;
     }
     
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
         postIndex=postorder.size()-1;
-        for(int i=0;i<inorder.size();i++)
-            inorderIndexMap.insert({inorder[i],i});
         
-        return arrayToTree(postorder,0,postorder.size()-1);
+        for(int i=0;i<inorder.size();i++)
+            map[inorder[i]]=i;
+        
+        return constructTree(postorder,0,postorder.size()-1);
     }
 };
