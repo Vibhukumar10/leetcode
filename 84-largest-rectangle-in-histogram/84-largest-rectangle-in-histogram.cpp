@@ -14,9 +14,6 @@ public:
         s.push(n-1);
         for(int i=n-2;i>=0;i--)
         {
-            // int res=i+1;
-            // while(res<n && heights[i]<=heights[res])
-            //     res++;
             while(!s.empty() && heights[i]<=heights[s.top()])
                 s.pop();
             rSmall[i]=s.empty() ? n:s.top();
@@ -35,12 +32,6 @@ public:
             lSmall[i]=s.empty() ?-1:s.top();
             s.push(i);
         }
-        
-        // for(int i=0;i<n;i++)
-        //     cout<<rSmall[i]<<" ";
-        // cout<<endl;
-        // for(int i=0;i<n;i++)
-        //     cout<<lSmall[i]<<" ";
         
         int res=0;
         for(int i=0;i<n;i++)
