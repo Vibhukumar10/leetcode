@@ -8,7 +8,7 @@ public:
         {
             if(num&1 == 1)
             {
-                res.insert(res.begin(),nums[index]);
+                res.push_back(nums[index]);
             }
             index--;
             num=num>>1;
