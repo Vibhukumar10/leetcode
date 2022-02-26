@@ -13,14 +13,14 @@ class Solution {
         if(!visited[i][j])
         {
             visited[i][j]=true;
-            dfs(i+1,j,visited,grid,n,m);
-           dfs(i-1,j,visited,grid,n,m);
-           dfs(i,j+1,visited,grid,n,m);
-           dfs(i,j-1,visited,grid,n,m);
-           dfs(i+1,j+1,visited,grid,n,m);
-           dfs(i-1,j-1,visited,grid,n,m);
-           dfs(i+1,j-1,visited,grid,n,m);
-           dfs(i-1,j+1,visited,grid,n,m);
+            dfs(i+1,j,visited,grid,n,m);//bottom
+            dfs(i-1,j,visited,grid,n,m);//top
+            dfs(i,j+1,visited,grid,n,m);//right
+            dfs(i,j-1,visited,grid,n,m);//left
+            dfs(i+1,j+1,visited,grid,n,m);//bottom right diagonal
+            dfs(i-1,j-1,visited,grid,n,m);//top left diagonal
+            dfs(i+1,j-1,visited,grid,n,m);//bottom left diagonal
+            dfs(i-1,j+1,visited,grid,n,m);//top right diagonal
         }
     }
     // Function to find the number of islands.
