@@ -11,7 +11,7 @@ class Solution
     
     static bool myComp(pair<int,int> p,pair<int,int> q)
     {
-        if(p.second == q.second) return p.first < q.first;
+        if(p.second == q.second) return p.first > q.first;
         return p.second < q.second;
     }
     
