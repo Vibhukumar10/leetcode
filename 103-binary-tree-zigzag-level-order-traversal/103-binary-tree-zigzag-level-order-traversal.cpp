@@ -15,25 +15,37 @@ public:
         vector<vector<int>> res;
         if(!root) return res;
         
-        queue<TreeNode*> q;
-        q.push(root);
+        deque<TreeNode*> dq;
+        dq.push_back(root);
         
         bool flag=true;
         
-        while(!q.empty()) 
+        while(!dq.empty()) 
         {
-            int sz=q.size();
+            int sz=dq.size();
             vector<int> add;
             for(int i=0;i<sz;i++)
             {
-                TreeNode *temp=q.front();
-                q.pop();
-                
-                add.push_back(temp->val);
-                if(temp->left) q.push(temp->left);
-                if(temp->right) q.push(temp->right);
+                if(flag)
+                {
+                    TreeNode *temp=dq.front();
+                    dq.pop_front();
+                    
+                    add.push_back(temp->val);
+                    if(temp->left) dq.push_back(temp->left);
+                    if(temp->right) dq.push_back(temp->right);
+                }
+                else
+                {
+                    TreeNode *temp=dq.back();
+                    dq.pop_back();
+                    
+                    add.push_back(temp->val);
+                    if(temp->right) dq.push_front(temp->right);
+                    if(temp->left) dq.push_front(temp->left);
+                }
             }
-            if(!flag) reverse(add.begin(),add.end());
+            // if(!flag) reverse(add.begin(),add.end());
             res.push_back(add);
             flag=!flag;
         }
