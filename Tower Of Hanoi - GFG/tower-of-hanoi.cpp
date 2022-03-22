@@ -11,9 +11,9 @@ class Solution{
 
     // avoid space at the starting of the string in "move disk....."
     long long toh(int N, int from, int to, int aux) {
-        if(N==1) {
-            cout<<"move disk "<<N<<" from rod "<<from<<" to rod "<<to<<"\n";
-            return 1;
+        if(N==0) {
+            // cout<<"move disk "<<N<<" from rod "<<from<<" to rod "<<to<<"\n";
+            return 0;
         }
         
         long long res = toh(N-1,from,aux,to);
