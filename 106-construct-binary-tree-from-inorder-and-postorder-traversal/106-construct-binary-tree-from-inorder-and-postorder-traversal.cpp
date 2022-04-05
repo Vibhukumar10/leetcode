@@ -14,8 +14,10 @@ public:
     int index;
     unordered_map<int,int> mp;
     
-    TreeNode* construct(vector<int> postorder,int l,int r) {
-        if(l>r) return NULL;
+    TreeNode *construct(vector<int> postorder,int l,int r) {
+        if(l>r) {
+            return NULL;
+        }
         
         int rootVal=postorder[index--];
         TreeNode *root=new TreeNode(rootVal);
@@ -28,13 +30,11 @@ public:
     
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
         if(postorder.size()==0) return NULL;
-        // unordered_map<int,int> mp;
         for(int i=0;i<inorder.size();i++) {
             mp[inorder[i]]=i;
         }
         
         index=postorder.size()-1;
-        
         return construct(postorder,0,inorder.size()-1);
     }
 };
