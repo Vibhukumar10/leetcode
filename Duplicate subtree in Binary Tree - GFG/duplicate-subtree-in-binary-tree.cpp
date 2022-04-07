@@ -90,36 +90,34 @@ struct Node
 
 class Solution {
   public:
-    unordered_map<int,Node*> mp;
+    unordered_map<string,int> mp; 
     /*This function returns true if the tree contains 
     a duplicate subtree of size 2 or more else returns false*/
-    bool isIdentical(Node *root1,Node *root2) {
-        if(!root1 && !root2) return true;    
+    
+    string traverse(Node *root) {
+        if((!root->left && !root->right)) return to_string(root->data);
         
-        if(root1 && root2) {
-            return ((root1->data == root2->data) && 
-                isIdentical(root1->left,root2->left) && isIdentical(root1->right,root2->right) 
-            );
-        }
+        string s=to_string(root->data);
+        if(root->left)
+            s=s+" "+traverse(root->left);
+        if(root->right)
+            s=s+" "+traverse(root->right);
         
-        return false;
+        
+        mp[s]++;
+        
+        return s;
     }
     
     int dupSub(Node *root) {
          // code here
-        if(!root || (!root->left && !root->right)) return 0;
-        
-        // int ok=0;
-        if(mp.find(root->data)!=mp.end()) {
-            // Node *b=mp[root->data];
-            if(isIdentical(mp[root->data],root)) return 1;
-            // for(auto itr=it;*itr==*it;itr++) {
-                
-            // }
-        } 
-        mp.insert({root->data,root});
-        
-        return (dupSub(root->left) || dupSub(root->right));
+         string s=traverse(root);
+         for(auto it:mp) {
+             if(it.first.length() > 1 && it.second > 1) {
+                 return 1;
+             } 
+         }
+         return 0;
     }
 };
 
