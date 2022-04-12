@@ -23,22 +23,26 @@ class Solution
 {
     public:
     //Function to check whether a Binary Tree is BST or not.
-    bool helper(Node* root,int maxVal,int minVal) {
+    int val=INT_MIN;
+    bool helper(Node* root) {
         if(!root) {
             return true;
         }
         
-        if(root->data < maxVal || root->data > minVal) {
+        if(!isBST(root->left))
+            return false;
+        
+        if(root->data <= val) {
             return false;
         }
         
-        return helper(root->left,maxVal,root->data-1) &&
-            helper(root->right,root->data+1,minVal);
+        val=root->data;
         
+        return isBST(root->right);
     }
     
     bool isBST(Node* root) {
-        return helper(root,INT_MIN,INT_MAX);
+        return helper(root);
     }
 };
 
