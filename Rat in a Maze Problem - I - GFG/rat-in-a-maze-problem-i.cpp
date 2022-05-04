@@ -18,17 +18,17 @@ class Solution{
         } else {
             if(!vis[r][c]) {
                 vis[r][c]=true;
-                curr.push_back('U');
-                helper(res,curr,m,n,r-1,c,vis);
-                curr.pop_back();
-                curr.push_back('R');
-                helper(res,curr,m,n,r,c+1,vis);
-                curr.pop_back();
                 curr.push_back('D');
                 helper(res,curr,m,n,r+1,c,vis);
                 curr.pop_back();
                 curr.push_back('L');
                 helper(res,curr,m,n,r,c-1,vis);
+                curr.pop_back();
+                curr.push_back('R');
+                helper(res,curr,m,n,r,c+1,vis);
+                curr.pop_back();
+                curr.push_back('U');
+                helper(res,curr,m,n,r-1,c,vis);
                 curr.pop_back();
             }
         }
