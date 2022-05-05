@@ -6,50 +6,36 @@ using namespace std;
 class Solution 
 {
     public:
-    struct cell {
-        int x,y,dis;
-        cell (int xx,int yy,int diss) {
-            x=xx;
-            y=yy;
-            dis=diss;
-        }
-    };
-    
-    bool isValid(int x,int y,int N) {
-        if(x < 1 || x > N || y < 1 || y > N) {
-            return false;
-        } return true;
-    }
     //Function to find out minimum steps Knight needs to reach target position.
 	int minStepToReachTarget(vector<int>&KnightPos,vector<int>&TargetPos,int N) {
 	    // Code here
-	    cell t(TargetPos[0],TargetPos[1],0);
-	    
-	    int dirx[8]={2,2,1,1,-2,-2,-1,-1};
-	    int diry[8]={1,-1,2,-2,1,-1,2,-2};
-	    
-	    int x,y;
+	    vector<int> dirx={1,1,-1,-1,2,2,-2,-2};
+	    vector<int> diry={2,-2,2,-2,1,-1,1,-1};
 	    
 	    vector<vector<bool>> vis(N+1,vector<bool> (N+1,false));
-	    queue<cell> q;
-	    q.push(cell(KnightPos[0],KnightPos[1],0));
+	    
+	    queue<pair<int,pair<int,int>>> q;
+	    q.push({KnightPos[0],{KnightPos[1],0}});
 	    vis[KnightPos[0]][KnightPos[1]]=true;
 	    
 	    while(!q.empty()) {
-	        cell k=q.front();
-	        q.pop();
-	        
-	        if(k.x==t.x && k.y==t.y) {
-	            return k.dis;
-	        }
-	        
-	        for(int i=0;i<8;i++) {
-	            x=k.x+dirx[i];
-	            y=k.y+diry[i];
+	        int sz=q.size();
+	        for(int i=0;i<sz;i++) {
+	            pair<int,pair<int,int>> p=q.front();
+	            q.pop();
 	            
-	            if(isValid(x,y,N) && !vis[x][y]) {
-	                vis[x][y]=true;
-	                q.push(cell(x,y,k.dis+1));
+	            if(p.first==TargetPos[0] && p.second.first==TargetPos[1]) {
+	                return p.second.second;
+	            }
+	            
+	            for(int j=0;j<8;j++) {
+	                int x=p.first+dirx[j];
+	                int y=p.second.first+diry[j];
+	                
+	                if(x>=1 && x<=N && y>=1 && y<=N && !vis[x][y]) {
+	                    vis[x][y]=true;
+	                    q.push({x,{y,p.second.second+1}});
+	                }
 	            }
 	        }
 	    }
