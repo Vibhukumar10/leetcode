@@ -10,12 +10,10 @@ class Solution
     //from the source vertex S.
     vector <int> dijkstra(int V, vector<vector<int>> adj[], int S) {
         // Code here
-        vector<bool> vis(V,false);
-        vector<int> dis(V,INT_MAX);
+        vector<int> dist(V,INT_MAX);
         queue<int> q;
         q.push(S);
-        vis[S]=true;
-        dis[S]=0;
+        dist[S]=0;
         
         while(!q.empty()) {
             int sz=q.size();
@@ -24,15 +22,14 @@ class Solution
                 q.pop();
                 
                 for(auto e:adj[u]) {
-                    if(dis[e[0]]>dis[u]+e[1]) {
-                        dis[e[0]]=dis[u]+e[1];
+                    if(dist[e[0]]>dist[u]+e[1]) {
+                        dist[e[0]]=dist[u]+e[1];
                         q.push(e[0]);
                     }
                 }
             }
         }
-        
-        return dis;
+        return dist;
     }
 };
 
