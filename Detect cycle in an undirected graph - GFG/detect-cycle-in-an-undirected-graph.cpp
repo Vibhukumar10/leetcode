@@ -23,7 +23,7 @@ class Solution {
                         q.push({v,u});
                         vis[v]=true;
                     } else {
-                        if(p!=v) {
+                        if(v!=p) {
                             return true;
                         }
                     }
