@@ -10,13 +10,13 @@ class Solution {
         // code here
         vector<int> in(V,0);
         
-        for(int i=0;i<V;i++) {
-            for(int v:adj[i]) {
-                if(v==i) {
-                    return true;
-                }
-            }
-        }
+        // for(int i=0;i<V;i++) {
+        //     for(int v:adj[i]) {
+        //         if(v==i) {
+        //             return true;
+        //         }
+        //     }
+        // }
         
         for(int i=0;i<V;i++) {
             for(int v:adj[i]) {
