@@ -6,7 +6,7 @@ public:
         if(s==d) return true;
         
         for(int v:adj[s]) {
-            if(s==fs && v==d) continue;
+            if((s==fs && v==d) || (s==d && v==fs)) continue;
             if(!vis[v]) {
                 if(dfs(v,fs,d,adj,vis)) return true;
             }
