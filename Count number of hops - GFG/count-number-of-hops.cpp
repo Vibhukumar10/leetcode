@@ -33,8 +33,16 @@ class Solution
         
         // your code here
         vector<long long> memo(n+1,-1);
-        res=0;
-        return helper(0,n,memo);
+        // res=0;
+        // return helper(0,n,memo);
+        memo[0]=1;
+        memo[1]=1;
+        memo[2]=2;
+        
+        for(int i=3;i<=n;i++) {
+            memo[i]=(memo[i-1]%M + memo[i-2]%M + memo[i-3]%M)%M;
+        }
+        return memo[n];
     }
 };
 
