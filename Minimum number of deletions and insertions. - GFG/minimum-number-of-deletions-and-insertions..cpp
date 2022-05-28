@@ -23,7 +23,23 @@ class Solution{
 	int minOperations(string str1, string str2) { 
 	    // Your code goes here
 	    vector<vector<int>> mem(str1.length()+1,vector<int> (str2.length()+1,-1));
-	    return helper(mem,str1,str1.length(),str2,str2.length());
+	   // return helper(mem,str1,str1.length(),str2,str2.length());
+	   int n=str1.length(),m=str2.length();
+	   
+	   for(int i=0;i<=n;i++) {
+	       for(int j=0;j<=m;j++) {
+	           if(i==0||j==0) {
+	               mem[i][j]=i+j;
+	           } else {
+	               if(str1[i-1]==str2[j-1]) {
+	                   mem[i][j]=mem[i-1][j-1];
+	               } else {
+	                   mem[i][j]=1+min(mem[i-1][j],mem[i][j-1]);
+	               }
+	           }
+	       }
+	   }
+	   return mem[n][m];
 	} 
 };
 
