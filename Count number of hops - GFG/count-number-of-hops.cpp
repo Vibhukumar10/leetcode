@@ -12,7 +12,7 @@ class Solution
     long long res;
     //Function to count the number of ways in which frog can reach the top.
     long long helper(long long s,int n,vector<long long> &memo) {
-        if(memo[n]==-1) {   
+        if(memo[s]==-1) {   
             if(s==n) {
                 memo[s]=1;
             }
