@@ -14,21 +14,21 @@ public:
     //     return dp[n];
     // }
     
+    int f(int ind,vector<int> &nums,vector<int> &dp) {
+        if(ind<0) {
+            return 0;
+        }
+        if(dp[ind]!=-1) return dp[ind];
+        
+        return dp[ind]=max(f(ind-1,nums,dp),nums[ind]+f(ind-2,nums,dp));
+    }
+    
     int rob(vector<int>& nums) {
         int res=0,n=nums.size();
         // dp=vector<int> (n+1,-1);
         // helper(res,0,nums,n-1);
         // return res;
-        if(n==1) {
-            return nums[0];
-        }
-        
-        vector<int> dp(n+1,0);
-        dp[0]=nums[0];
-        dp[1]=max(nums[1],nums[0]);
-        for(int i=2;i<n;i++) {
-            dp[i]=max(dp[i-2]+nums[i],dp[i-1]);
-        }
-        return dp[n-1];
+        vector<int> dp(n,-1);
+        return f(n-1,nums,dp);
     }
 };
