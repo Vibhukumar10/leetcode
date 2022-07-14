@@ -6,26 +6,34 @@ using namespace std;
 class Solution
 {
 	public:
+	const int INF = 1e5;
 	//Function to find the shortest distance of all the vertices
     //from the source vertex S.
-    vector <int> dijkstra(int V, vector<vector<int>> adj[], int S) {
+    vector <int> dijkstra(int V, vector<vector<int>> adj[], int S)
+    {
         // Code here
-        vector<int> dist(V,INT_MAX);
-        queue<int> q;
-        q.push(S);
-        dist[S]=0;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
+        vector<int> dist(V,INF);
+        vector<bool> vis(V,false);
         
-        while(!q.empty()) {
-            int sz=q.size();
-            for(int i=0;i<sz;i++) {
-                int u=q.front();
-                q.pop();
+        dist[S] = 0;
+        pq.push({0,S});
+        vis[S]=true;
+        
+        while(!pq.empty()) {
+            int u=pq.top().second;
+            int w=pq.top().first;
+            pq.pop();
+            
+            vis[u]=true;
+            
+            for(auto it:adj[u]) {
+                int v=it[0];
+                int w=it[1];
                 
-                for(auto e:adj[u]) {
-                    if(dist[e[0]]>dist[u]+e[1]) {
-                        dist[e[0]]=dist[u]+e[1];
-                        q.push(e[0]);
-                    }
+                if(dist[v]>w+dist[u]) {
+                    dist[v] = w+dist[u];
+                    pq.push({dist[v],v});
                 }
             }
         }
