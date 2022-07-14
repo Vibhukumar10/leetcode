@@ -10,34 +10,24 @@ using namespace std;
 
 class Solution{
     public:
-    void helper(vector<string> &res,string curr,vector<vector<int>> &m,int n,int r,int c,vector<vector<bool>> vis) {
-        if(r<0 || r>=n || c<0 || c>=n || m[r][c]==0) {
+    void dfs(vector<string> &res,vector<vector<int>> &m,int n,int x,int y,string curr,vector<vector<bool>> vis) {
+        if(x<0 || y<0 || x>=n || y>=n || m[x][y]==0 || vis[x][y]) {
             return;
-        } else if(r==n-1 && c==n-1 && m[r][c]==1) {
+        } else if(x==n-1 && y==n-1) {
             res.push_back(curr);
         } else {
-            if(!vis[r][c]) {
-                vis[r][c]=true;
-                curr.push_back('D');
-                helper(res,curr,m,n,r+1,c,vis);
-                curr.pop_back();
-                curr.push_back('L');
-                helper(res,curr,m,n,r,c-1,vis);
-                curr.pop_back();
-                curr.push_back('R');
-                helper(res,curr,m,n,r,c+1,vis);
-                curr.pop_back();
-                curr.push_back('U');
-                helper(res,curr,m,n,r-1,c,vis);
-                curr.pop_back();
-            }
+            vis[x][y]=true;
+            dfs(res,m,n,x,y+1,curr+"R",vis);
+            dfs(res,m,n,x-1,y,curr+"U",vis);
+            dfs(res,m,n,x+1,y,curr+"D",vis);
+            dfs(res,m,n,x,y-1,curr+"L",vis);
         }
     }
-    
     vector<string> findPath(vector<vector<int>> &m, int n) {
+        // Your code goes here
         vector<string> res;
         vector<vector<bool>> vis(n,vector<bool> (n,false));
-        helper(res,"",m,n,0,0,vis);
+        dfs(res,m,n,0,0,"",vis);
         return res;
     }
 };
