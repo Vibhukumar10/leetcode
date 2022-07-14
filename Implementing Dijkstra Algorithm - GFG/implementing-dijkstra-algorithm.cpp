@@ -14,18 +14,14 @@ class Solution
         // Code here
         priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
         vector<int> dist(V,INF);
-        vector<bool> vis(V,false);
         
         dist[S] = 0;
         pq.push({0,S});
-        vis[S]=true;
         
         while(!pq.empty()) {
             int u=pq.top().second;
             int w=pq.top().first;
             pq.pop();
-            
-            vis[u]=true;
             
             for(auto it:adj[u]) {
                 int v=it[0];
