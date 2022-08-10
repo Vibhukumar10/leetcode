@@ -1,34 +1,47 @@
 class Solution {
 public:
-    int f(vector<int> &nums) {
+    int houseRobber(vector<int> &nums) {
         int n=nums.size();
-        if(n==1) {
+        if(n==0) {
+            return 0;
+        } else if(n==1) {
             return nums[0];
         }
-        int prev2=nums[0];
-        int prev=max(nums[0],nums[1]);
-        for(int i=2;i<n;i++) {
-            int curr=max(prev2+nums[i],prev);
-            prev2=prev;
-            prev=curr;
+        
+        vector<int> dp(n+1,0);
+        dp[0] = 0;
+        dp[1] = nums[0];
+        dp[2] = max(nums[0],nums[1]);
+        
+        for(int i=3;i<=n;i++) {
+            int pick = nums[i-1] + dp[i-2];
+            int np = dp[i-1];
+            dp[i] = max(pick,np);
         }
-        return prev;
+        return dp[n];
     }
+    
     int rob(vector<int>& nums) {
-        int n=nums.size();
-        if(n==1) {
+        
+        if(nums.size()==0) {
+            return 0;
+        } else if(nums.size()==1) {
             return nums[0];
         }
-        vector<int> v1,v2;
-        for(int i=0;i<n;i++) {
-            if(i!=0) {
-                v1.push_back(nums[i]);
+        
+        vector<int> f,l;
+        for(int i=0;i<nums.size();i++) {
+            if(i<nums.size()-1) {
+                l.push_back(nums[i]);
             }
-            if(i!=(n-1)) {
-                v2.push_back(nums[i]);
+            if(i>=1) {
+                f.push_back(nums[i]);
             }
         }
         
-        return max(f(v1),f(v2));        
+        int fir = houseRobber(l);
+        int las = houseRobber(f);
+        
+        return max(fir,las);        
     }
 };
