@@ -38,4 +38,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/Vibhukumar10/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+## Tree
+|  |
+| ------- |
+| [1325-delete-leaves-with-a-given-value](https://github.com/Vibhukumar10/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
+## Depth-First Search
+|  |
+| ------- |
+| [1325-delete-leaves-with-a-given-value](https://github.com/Vibhukumar10/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
+## Binary Tree
+|  |
+| ------- |
+| [1325-delete-leaves-with-a-given-value](https://github.com/Vibhukumar10/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
 <!---LeetCode Topics End-->
