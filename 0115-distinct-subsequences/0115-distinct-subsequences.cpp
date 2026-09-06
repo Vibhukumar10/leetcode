@@ -1,23 +1,35 @@
 class Solution {
 public:
-    map<pair<int,int>,int> memo;
-    int dfs(string &s,string &t,int i,int j) {
-        if(j==t.size()) return 1;
-        if(i==s.size()) return 0;
-
-        if(memo.find({i,j})!=memo.end()) {
-            return memo[{i,j}];
-        }
-
-        if(s[i]==t[j]) {
-            return memo[{i,j}]=dfs(s,t,i+1,j)+dfs(s,t,i+1,j+1);
-        } else {
-            return memo[{i,j}]=dfs(s,t,i+1,j);
-        }
-
-        return 0;
-    }
     int numDistinct(string s, string t) {
-        return dfs(s,t,0,0);
+        int m = s.size();
+        int n = t.size();
+
+        vector<vector<long long>> dp(
+            m + 1,
+            vector<long long>(n + 1, 0)
+        );
+
+        // Empty string t can be formed in exactly 1 way
+        for (int i = 0; i <= m; i++) {
+            dp[i][0] = 1;
+        }
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+
+                // Skip s[i-1]
+                dp[i][j] = dp[i - 1][j];
+
+                // Use s[i-1] if characters match
+                if (s[i - 1] == t[j - 1]) {
+                    dp[i][j] += dp[i - 1][j - 1];
+
+                    // Prevent overflow
+                    dp[i][j] = min(dp[i][j], (long long)INT_MAX);
+                }
+            }
+        }
+
+        return (int)dp[m][n];
     }
 };
