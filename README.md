@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [3903-smallest-stable-index-i](https://github.com/Vibhukumar10/leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Vibhukumar10/leetcode/tree/master/3904-smallest-stable-index-ii) |
 ## Prefix Sum
@@ -59,9 +60,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0115-distinct-subsequences](https://github.com/Vibhukumar10/leetcode/tree/master/0115-distinct-subsequences) |
+| [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [1143-longest-common-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/1143-longest-common-subsequence) |
 ## Longest Common Subsequence
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/1143-longest-common-subsequence) |
+## Binary Search
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
