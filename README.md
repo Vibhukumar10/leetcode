@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/Vibhukumar10/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0394-decode-string](https://github.com/Vibhukumar10/leetcode/tree/master/0394-decode-string) |
 ## Tree
 |  |
 | ------- |
@@ -67,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0115-distinct-subsequences](https://github.com/Vibhukumar10/leetcode/tree/master/0115-distinct-subsequences) |
+| [0394-decode-string](https://github.com/Vibhukumar10/leetcode/tree/master/0394-decode-string) |
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
 | [1143-longest-common-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1405-longest-happy-string](https://github.com/Vibhukumar10/leetcode/tree/master/1405-longest-happy-string) |
@@ -119,4 +121,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
+## Stack
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/Vibhukumar10/leetcode/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
