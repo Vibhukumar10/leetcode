@@ -8,12 +8,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
+| [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
 | [1834-single-threaded-cpu](https://github.com/Vibhukumar10/leetcode/tree/master/1834-single-threaded-cpu) |
 | [3903-smallest-stable-index-i](https://github.com/Vibhukumar10/leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Vibhukumar10/leetcode/tree/master/3904-smallest-stable-index-ii) |
 ## Prefix Sum
 |  |
 | ------- |
+| [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
 | [3903-smallest-stable-index-i](https://github.com/Vibhukumar10/leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Vibhukumar10/leetcode/tree/master/3904-smallest-stable-index-ii) |
 ## Linked List
@@ -31,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/Vibhukumar10/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
+| [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
 | [1405-longest-happy-string](https://github.com/Vibhukumar10/leetcode/tree/master/1405-longest-happy-string) |
 | [1834-single-threaded-cpu](https://github.com/Vibhukumar10/leetcode/tree/master/1834-single-threaded-cpu) |
 ## Merge Sort
@@ -105,10 +108,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
+| [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
 | [1834-single-threaded-cpu](https://github.com/Vibhukumar10/leetcode/tree/master/1834-single-threaded-cpu) |
 ## Counting
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
+## Simulation
+|  |
+| ------- |
+| [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
 <!---LeetCode Topics End-->
