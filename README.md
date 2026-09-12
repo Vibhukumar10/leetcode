@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Vibhukumar10/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Vibhukumar10/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/Vibhukumar10/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Vibhukumar10/leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
@@ -159,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/Vibhukumar10/leetcode/tree/master/0127-word-ladder) |
 | [0207-course-schedule](https://github.com/Vibhukumar10/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
+| [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 | [0994-rotting-oranges](https://github.com/Vibhukumar10/leetcode/tree/master/0994-rotting-oranges) |
 ## DP on Trees
 |  |
@@ -185,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/Vibhukumar10/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
+| [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 ## Topological Sort
 |  |
 | ------- |
@@ -203,4 +206,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0739-daily-temperatures](https://github.com/Vibhukumar10/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/Vibhukumar10/leetcode/tree/master/0853-car-fleet) |
+## Union-Find
+|  |
+| ------- |
+| [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 <!---LeetCode Topics End-->
