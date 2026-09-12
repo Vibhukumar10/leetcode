@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Vibhukumar10/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0055-jump-game](https://github.com/Vibhukumar10/leetcode/tree/master/0055-jump-game) |
 | [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/Vibhukumar10/leetcode/tree/master/0739-daily-temperatures) |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/Vibhukumar10/leetcode/tree/master/0055-jump-game) |
 | [0115-distinct-subsequences](https://github.com/Vibhukumar10/leetcode/tree/master/0115-distinct-subsequences) |
 | [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [1143-longest-common-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/1143-longest-common-subsequence) |
@@ -127,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/Vibhukumar10/leetcode/tree/master/0055-jump-game) |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
 | [1405-longest-happy-string](https://github.com/Vibhukumar10/leetcode/tree/master/1405-longest-happy-string) |
