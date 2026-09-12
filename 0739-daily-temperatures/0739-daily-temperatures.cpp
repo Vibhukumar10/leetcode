@@ -5,9 +5,9 @@ public:
         vector<int> res(n,0);
 
         stack<int> st;
-        st.push(0);
+        // st.push(0);
 
-        for(int i=1;i<n;i++) {
+        for(int i=0;i<n;i++) {
             while(!st.empty() && temperatures[i]>temperatures[st.top()]) {
                 res[st.top()]=i-st.top();
                 st.pop();
