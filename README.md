@@ -173,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/Vibhukumar10/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/Vibhukumar10/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/Vibhukumar10/leetcode/tree/master/0853-car-fleet) |
+| [0901-online-stock-span](https://github.com/Vibhukumar10/leetcode/tree/master/0901-online-stock-span) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -233,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0739-daily-temperatures](https://github.com/Vibhukumar10/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/Vibhukumar10/leetcode/tree/master/0853-car-fleet) |
+| [0901-online-stock-span](https://github.com/Vibhukumar10/leetcode/tree/master/0901-online-stock-span) |
 ## Union-Find
 |  |
 | ------- |
@@ -253,4 +255,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Vibhukumar10/leetcode/tree/master/0155-min-stack) |
+| [0901-online-stock-span](https://github.com/Vibhukumar10/leetcode/tree/master/0901-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/Vibhukumar10/leetcode/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
