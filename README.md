@@ -166,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/Vibhukumar10/leetcode/tree/master/0155-min-stack) |
 | [0394-decode-string](https://github.com/Vibhukumar10/leetcode/tree/master/0394-decode-string) |
 | [0678-valid-parenthesis-string](https://github.com/Vibhukumar10/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/Vibhukumar10/leetcode/tree/master/0739-daily-temperatures) |
@@ -245,4 +246,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Vibhukumar10/leetcode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
