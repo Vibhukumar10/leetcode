@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Vibhukumar10/leetcode/tree/master/0055-jump-game) |
 | [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/Vibhukumar10/leetcode/tree/master/0739-daily-temperatures) |
 | [0835-image-overlap](https://github.com/Vibhukumar10/leetcode/tree/master/0835-image-overlap) |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/Vibhukumar10/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Vibhukumar10/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0543-diameter-of-binary-tree](https://github.com/Vibhukumar10/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/Vibhukumar10/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
@@ -107,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/Vibhukumar10/leetcode/tree/master/0055-jump-game) |
 | [0115-distinct-subsequences](https://github.com/Vibhukumar10/leetcode/tree/master/0115-distinct-subsequences) |
 | [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/Vibhukumar10/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [1143-longest-common-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/1143-longest-common-subsequence) |
 ## Longest Common Subsequence
@@ -174,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/Vibhukumar10/leetcode/tree/master/0127-word-ladder) |
 | [0207-course-schedule](https://github.com/Vibhukumar10/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 | [0994-rotting-oranges](https://github.com/Vibhukumar10/leetcode/tree/master/0994-rotting-oranges) |
 ## DP on Trees
@@ -195,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0835-image-overlap](https://github.com/Vibhukumar10/leetcode/tree/master/0835-image-overlap) |
 | [0994-rotting-oranges](https://github.com/Vibhukumar10/leetcode/tree/master/0994-rotting-oranges) |
 ## Graph Theory
@@ -202,16 +207,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/Vibhukumar10/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Vibhukumar10/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Vibhukumar10/leetcode/tree/master/0207-course-schedule) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Bidirectional Search
 |  |
 | ------- |
@@ -233,4 +241,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/Vibhukumar10/leetcode/tree/master/0678-valid-parenthesis-string) |
+## Memoization
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 <!---LeetCode Topics End-->
