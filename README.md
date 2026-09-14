@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/Vibhukumar10/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0045-jump-game-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Vibhukumar10/leetcode/tree/master/0055-jump-game) |
+| [0128-longest-consecutive-sequence](https://github.com/Vibhukumar10/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
@@ -135,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/Vibhukumar10/leetcode/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/Vibhukumar10/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
 | [0763-partition-labels](https://github.com/Vibhukumar10/leetcode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
@@ -238,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Vibhukumar10/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 ## Two Pointers
 |  |
