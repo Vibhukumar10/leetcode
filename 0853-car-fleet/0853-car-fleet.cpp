@@ -1,23 +1,25 @@
 class Solution {
 public:
     int carFleet(int target, vector<int>& position, vector<int>& speed) {
-        vector<pair<int, int>> pair;
-        for (int i = 0; i < position.size(); i++) {
-            pair.push_back({position[i], speed[i]});
+        int n=position.size();
+        vector<pair<int,int>> cars;
+
+        for(int i=0;i<n;i++) {
+            cars.push_back({position[i],speed[i]});
         }
-        sort(pair.rbegin(), pair.rend());
 
-        stack<double> stack;
-        for (auto& p : pair) {
-            double time = (double)(target - p.first) / p.second;
+        sort(cars.rbegin(),cars.rend());
 
-            if(!stack.empty() && stack.top()>=time) {
+        int res=0;
+        stack<double> st;
+        for(int i=0;i<n;i++) {
+            double time=(double)(target-cars[i].first)/cars[i].second;
+            if(!st.empty() && st.top()>=time) {
                 continue;
             }
-
-            stack.push(time);
+            st.push(time);
         }
 
-        return stack.size();
+        return st.size();
     }
 };
