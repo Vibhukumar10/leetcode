@@ -110,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0115-distinct-subsequences](https://github.com/Vibhukumar10/leetcode/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Vibhukumar10/leetcode/tree/master/0127-word-ladder) |
 | [0394-decode-string](https://github.com/Vibhukumar10/leetcode/tree/master/0394-decode-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/Vibhukumar10/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0678-valid-parenthesis-string](https://github.com/Vibhukumar10/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/Vibhukumar10/leetcode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
@@ -151,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/Vibhukumar10/leetcode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Vibhukumar10/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0347-top-k-frequent-elements](https://github.com/Vibhukumar10/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0424-longest-repeating-character-replacement](https://github.com/Vibhukumar10/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
 | [0763-partition-labels](https://github.com/Vibhukumar10/leetcode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
@@ -314,4 +316,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Vibhukumar10/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0424-longest-repeating-character-replacement](https://github.com/Vibhukumar10/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 <!---LeetCode Topics End-->
