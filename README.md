@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/Vibhukumar10/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/Vibhukumar10/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
+| [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
 | [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
 | [1405-longest-happy-string](https://github.com/Vibhukumar10/leetcode/tree/master/1405-longest-happy-string) |
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0543-diameter-of-binary-tree](https://github.com/Vibhukumar10/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
+| [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/Vibhukumar10/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Vibhukumar10/leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
@@ -194,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
+| [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
 | [0994-rotting-oranges](https://github.com/Vibhukumar10/leetcode/tree/master/0994-rotting-oranges) |
 ## DP on Trees
 |  |
@@ -225,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
+| [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
 ## Topological Sort
 |  |
 | ------- |
@@ -289,4 +293,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/Vibhukumar10/leetcode/tree/master/0836-rectangle-overlap) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
