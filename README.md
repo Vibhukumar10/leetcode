@@ -135,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0836-rectangle-overlap](https://github.com/Vibhukumar10/leetcode/tree/master/0836-rectangle-overlap) |
 | [3870-count-commas-in-range](https://github.com/Vibhukumar10/leetcode/tree/master/3870-count-commas-in-range) |
 ## Hash Table
 |  |
@@ -284,4 +285,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Vibhukumar10/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/Vibhukumar10/leetcode/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->
