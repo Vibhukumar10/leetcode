@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0853-car-fleet](https://github.com/Vibhukumar10/leetcode/tree/master/0853-car-fleet) |
 | [0994-rotting-oranges](https://github.com/Vibhukumar10/leetcode/tree/master/0994-rotting-oranges) |
 | [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Vibhukumar10/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1834-single-threaded-cpu](https://github.com/Vibhukumar10/leetcode/tree/master/1834-single-threaded-cpu) |
 | [3903-smallest-stable-index-i](https://github.com/Vibhukumar10/leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Vibhukumar10/leetcode/tree/master/3904-smallest-stable-index-ii) |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
 | [1143-longest-common-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1405-longest-happy-string](https://github.com/Vibhukumar10/leetcode/tree/master/1405-longest-happy-string) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Vibhukumar10/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -156,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
 | [0763-partition-labels](https://github.com/Vibhukumar10/leetcode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Vibhukumar10/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 ## Greedy
 |  |
 | ------- |
