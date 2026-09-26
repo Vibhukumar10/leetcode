@@ -50,6 +50,10 @@ public:
                 auto [x,y]=qa.front();
                 qa.pop();
 
+                if(visp[x][y] && visa[x][y]) {
+                    res.push_back({x,y});
+                }
+
                 for(int i=0;i<4;i++) {
                     int nx=x+dx[i];
                     int ny=y+dy[i];
@@ -64,13 +68,13 @@ public:
             }
         }
 
-        for(int i=0;i<heights.size();i++) {
-            for(int j=0;j<heights[0].size();j++) {
-                if(visp[i][j] && visa[i][j]) {
-                    res.push_back({i, j});
-                }
-            }
-        }
+        // for(int i=0;i<heights.size();i++) {
+        //     for(int j=0;j<heights[0].size();j++) {
+        //         if(visp[i][j] && visa[i][j]) {
+        //             res.push_back({i, j});
+        //         }
+        //     }
+        // }
 
         return res;
     }
