@@ -1,12 +1,6 @@
 class Solution {
 public:
-    bool isSmaller(string &s,string &t,string &order) {
-        unordered_map<char,int> ind;
-
-        for(int i=0;i<order.size();i++) {
-            ind[order[i]]=i;
-        }
-
+    bool isSmaller(string &s,string &t,unordered_map<char,int> &ind) {
         int i=0,j=0;
         while(i<s.size() && j<t.size()) {
             if(ind[s[i]]<ind[t[j]]) {
@@ -25,8 +19,14 @@ public:
         return true;
     }
     bool isAlienSorted(vector<string>& words, string order) {
+        unordered_map<char,int> ind;
+
+        for(int i=0;i<order.size();i++) {
+            ind[order[i]]=i;
+        }
+
         for(int i=1;i<words.size();i++) {
-            if(!isSmaller(words[i-1],words[i],order)) {
+            if(!isSmaller(words[i-1],words[i],ind)) {
                 return false;
             }
         }
