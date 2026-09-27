@@ -159,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/Vibhukumar10/leetcode/tree/master/0202-happy-number) |
 | [0343-integer-break](https://github.com/Vibhukumar10/leetcode/tree/master/0343-integer-break) |
 | [0836-rectangle-overlap](https://github.com/Vibhukumar10/leetcode/tree/master/0836-rectangle-overlap) |
 | [0973-k-closest-points-to-origin](https://github.com/Vibhukumar10/leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -168,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0127-word-ladder](https://github.com/Vibhukumar10/leetcode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Vibhukumar10/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0202-happy-number](https://github.com/Vibhukumar10/leetcode/tree/master/0202-happy-number) |
 | [0347-top-k-frequent-elements](https://github.com/Vibhukumar10/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Vibhukumar10/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0621-task-scheduler](https://github.com/Vibhukumar10/leetcode/tree/master/0621-task-scheduler) |
@@ -292,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/Vibhukumar10/leetcode/tree/master/0202-happy-number) |
 | [0763-partition-labels](https://github.com/Vibhukumar10/leetcode/tree/master/0763-partition-labels) |
 ## Bracket Sequences
 |  |
@@ -359,4 +362,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/Vibhukumar10/leetcode/tree/master/0494-target-sum) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/Vibhukumar10/leetcode/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
