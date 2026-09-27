@@ -12,7 +12,6 @@ public:
                 currSum+=digit*digit;
                 currNum=currNum/10;
             }
-            cout<<currSum<<endl;
 
             if(check.find(currSum)!=check.end()) {
                 return false;
