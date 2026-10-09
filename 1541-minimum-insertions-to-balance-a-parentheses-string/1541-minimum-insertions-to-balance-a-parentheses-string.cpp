@@ -13,8 +13,6 @@ public:
                 // Match the closing pair with an opening '('.
                 if (count==0) {
                     res++; // Insert missing '('
-                } else {
-                    count--;
                 }
 
                 // Consume )) as one closing pair.
@@ -25,6 +23,8 @@ public:
                     i++;
                 }
 
+                if(count)
+                    count--;
             }
         }
 
