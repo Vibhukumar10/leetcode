@@ -10,6 +10,12 @@ public:
                 st.push('(');
                 i++;
             } else {
+                // Match the closing pair with an opening '('.
+                if (st.empty()) {
+                    res++; // Insert missing '('
+                } else {
+                    st.pop();
+                }
                 // Consume )) as one closing pair.
                 if (i + 1 < s.size() && s[i + 1] == ')') {
                     i += 2;
@@ -18,12 +24,6 @@ public:
                     i++;
                 }
 
-                // Match the closing pair with an opening '('.
-                if (st.empty()) {
-                    res++; // Insert missing '('
-                } else {
-                    st.pop();
-                }
             }
         }
 
