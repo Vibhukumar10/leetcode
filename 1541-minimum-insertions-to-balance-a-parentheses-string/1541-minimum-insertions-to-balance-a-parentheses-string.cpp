@@ -1,21 +1,22 @@
 class Solution {
 public:
     int minInsertions(string s) {
-        stack<char> st;
+        int count = 0;
         int res = 0;
 
         int i = 0;
         while (i < s.size()) {
             if (s[i] == '(') {
-                st.push('(');
+                count++;
                 i++;
             } else {
                 // Match the closing pair with an opening '('.
-                if (st.empty()) {
+                if (count==0) {
                     res++; // Insert missing '('
                 } else {
-                    st.pop();
+                    count--;
                 }
+
                 // Consume )) as one closing pair.
                 if (i + 1 < s.size() && s[i + 1] == ')') {
                     i += 2;
@@ -27,6 +28,6 @@ public:
             }
         }
 
-        return res + 2 * st.size();
+        return res + 2 * count;
     }
 };
