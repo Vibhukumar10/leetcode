@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Vibhukumar10/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Vibhukumar10/leetcode/tree/master/0802-find-eventual-safe-states) |
+| [0841-keys-and-rooms](https://github.com/Vibhukumar10/leetcode/tree/master/0841-keys-and-rooms) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/Vibhukumar10/leetcode/tree/master/1325-delete-leaves-with-a-given-value) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Vibhukumar10/leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
@@ -238,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Vibhukumar10/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Vibhukumar10/leetcode/tree/master/0802-find-eventual-safe-states) |
+| [0841-keys-and-rooms](https://github.com/Vibhukumar10/leetcode/tree/master/0841-keys-and-rooms) |
 | [0994-rotting-oranges](https://github.com/Vibhukumar10/leetcode/tree/master/0994-rotting-oranges) |
 ## DP on Trees
 |  |
@@ -274,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Vibhukumar10/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Vibhukumar10/leetcode/tree/master/0802-find-eventual-safe-states) |
+| [0841-keys-and-rooms](https://github.com/Vibhukumar10/leetcode/tree/master/0841-keys-and-rooms) |
 ## Topological Sort
 |  |
 | ------- |
