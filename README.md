@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Vibhukumar10/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1834-single-threaded-cpu](https://github.com/Vibhukumar10/leetcode/tree/master/1834-single-threaded-cpu) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/Vibhukumar10/leetcode/tree/master/2778-sum-of-squares-of-special-elements) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Vibhukumar10/leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3903-smallest-stable-index-i](https://github.com/Vibhukumar10/leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Vibhukumar10/leetcode/tree/master/3904-smallest-stable-index-ii) |
 ## Prefix Sum
@@ -182,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0767-reorganize-string](https://github.com/Vibhukumar10/leetcode/tree/master/0767-reorganize-string) |
 | [0953-verifying-an-alien-dictionary](https://github.com/Vibhukumar10/leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Vibhukumar10/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Vibhukumar10/leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Greedy
 |  |
 | ------- |
@@ -203,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0973-k-closest-points-to-origin](https://github.com/Vibhukumar10/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
 | [1834-single-threaded-cpu](https://github.com/Vibhukumar10/leetcode/tree/master/1834-single-threaded-cpu) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Vibhukumar10/leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Counting
 |  |
 | ------- |
