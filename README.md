@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Vibhukumar10/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1834-single-threaded-cpu](https://github.com/Vibhukumar10/leetcode/tree/master/1834-single-threaded-cpu) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/Vibhukumar10/leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/Vibhukumar10/leetcode/tree/master/2778-sum-of-squares-of-special-elements) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Vibhukumar10/leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3903-smallest-stable-index-i](https://github.com/Vibhukumar10/leetcode/tree/master/3903-smallest-stable-index-i) |
@@ -158,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/Vibhukumar10/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0209-minimum-size-subarray-sum](https://github.com/Vibhukumar10/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/Vibhukumar10/leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Longest Increasing Subsequence
 |  |
 | ------- |
@@ -205,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0973-k-closest-points-to-origin](https://github.com/Vibhukumar10/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1094-car-pooling](https://github.com/Vibhukumar10/leetcode/tree/master/1094-car-pooling) |
 | [1834-single-threaded-cpu](https://github.com/Vibhukumar10/leetcode/tree/master/1834-single-threaded-cpu) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/Vibhukumar10/leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Vibhukumar10/leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Counting
 |  |
