@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/Vibhukumar10/leetcode/tree/master/0055-jump-game) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Vibhukumar10/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0128-longest-consecutive-sequence](https://github.com/Vibhukumar10/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/Vibhukumar10/leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Vibhukumar10/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/Vibhukumar10/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -94,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Vibhukumar10/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Vibhukumar10/leetcode/tree/master/0110-balanced-binary-tree) |
+| [0200-number-of-islands](https://github.com/Vibhukumar10/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Vibhukumar10/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Vibhukumar10/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -236,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Vibhukumar10/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0127-word-ladder](https://github.com/Vibhukumar10/leetcode/tree/master/0127-word-ladder) |
+| [0200-number-of-islands](https://github.com/Vibhukumar10/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Vibhukumar10/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Vibhukumar10/leetcode/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -267,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Vibhukumar10/leetcode/tree/master/0200-number-of-islands) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Vibhukumar10/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Vibhukumar10/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0835-image-overlap](https://github.com/Vibhukumar10/leetcode/tree/master/0835-image-overlap) |
@@ -310,6 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Vibhukumar10/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/Vibhukumar10/leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Vibhukumar10/leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 ## Two Pointers
