@@ -1,43 +1,45 @@
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        unordered_map<int,vector<pair<int,int>>> adj;
+        vector<int> distance(n,INT_MAX);
+        distance[src]=0;
 
-        for(auto& flight:flights) {
-            int from = flight[0];
-            int to = flight[1];
-            int price = flight[2];
-            adj[from].push_back({to,price});
+        unordered_map<int, vector<pair<int,int>>> adj;
+
+        for(vector<int> &vec:flights) {
+            int u=vec[0];
+            int v=vec[1];
+            int cost=vec[2];
+
+            adj[u].push_back({v,cost});
         }
 
-        // priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
-        queue<pair<int,int>> pq;
-        pq.push({0,src});
-
-        vector<int> dist(n,INT_MAX);
-        dist[src]=0;
+        
+        queue<pair<int,int>> q;
+        q.push({src,0});
 
         int stops=0;
 
-        while(!pq.empty() && stops<=k) {
-            stops++;
-            int sz=pq.size();
+        while(!q.empty() && stops<=k) {
+            int sz=q.size();
             while(sz--) {
-                auto [dis,u]=pq.front();
-                pq.pop();
+                auto [u,c]=q.front();
+                q.pop();
+                
+                for(auto &V:adj[u]) {
+                    int v=V.first;
+                    int cost=V.second;
 
-                for(auto it:adj[u]) {
-                    auto [v,weight]=it;
-
-                    if(dis+weight<dist[v]) {
-                        dist[v]=dis+weight;
-                        pq.push({dist[v],v});
+                    if(distance[v]>cost+c) {
+                        distance[v]=cost+c;
+                        q.push({v,cost+c});
                     }
                 }
-            }
-        }
-        
 
-        return dist[dst]==INT_MAX?-1:dist[dst];
+            }
+            stops++;
+        }
+
+        return distance[dst]==INT_MAX?-1:distance[dst];
     }
 };
