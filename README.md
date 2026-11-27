@@ -107,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/Vibhukumar10/leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/Vibhukumar10/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Vibhukumar10/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Vibhukumar10/leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/Vibhukumar10/leetcode/tree/master/0841-keys-and-rooms) |
@@ -249,6 +250,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/Vibhukumar10/leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/Vibhukumar10/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Vibhukumar10/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Vibhukumar10/leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/Vibhukumar10/leetcode/tree/master/0841-keys-and-rooms) |
@@ -288,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/Vibhukumar10/leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/Vibhukumar10/leetcode/tree/master/0743-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/Vibhukumar10/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Vibhukumar10/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Vibhukumar10/leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/Vibhukumar10/leetcode/tree/master/0841-keys-and-rooms) |
@@ -321,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Vibhukumar10/leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Vibhukumar10/leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Vibhukumar10/leetcode/tree/master/0684-redundant-connection) |
+| [0785-is-graph-bipartite](https://github.com/Vibhukumar10/leetcode/tree/master/0785-is-graph-bipartite) |
 ## Two Pointers
 |  |
 | ------- |
@@ -409,4 +413,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/Vibhukumar10/leetcode/tree/master/0802-find-eventual-safe-states) |
+## Graph Coloring
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/Vibhukumar10/leetcode/tree/master/0785-is-graph-bipartite) |
+## Bipartite Graph
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/Vibhukumar10/leetcode/tree/master/0785-is-graph-bipartite) |
 <!---LeetCode Topics End-->
